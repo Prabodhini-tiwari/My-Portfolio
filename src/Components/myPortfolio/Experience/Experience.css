@@ -1,0 +1,77 @@
+.experience-section {
+    padding: 4rem 2rem;
+    background-color:#1c1c3c;
+    color: #ffd700;
+  }
+  
+  .experience-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid #ffd700;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: -1.1rem;
+    top: 0;
+    width: 1rem;
+    height: 1rem;
+    background-color: #ffd700;
+    border-radius: 50%;
+  }
+  
+  .timeline-content {
+    margin-left: 2.5rem;
+    background-color: #29294e;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .timeline-item:hover .timeline-content {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .company-name,
+  .location,
+  .date-range {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .job-description {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .timeline {
+      padding-left: 3rem;
+    }
+    .timeline-content {
+      margin-left: 3.5rem;
+    }
+  }
+  

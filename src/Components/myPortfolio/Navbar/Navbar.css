@@ -1,0 +1,73 @@
+/* Navbar.css */
+
+/* Styles for desktop/laptop view */
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgb(8, 10, 10); /* Deep Navy Blue background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.desktop-nav .portfolio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffd700; /* Gold text */
+}
+
+.desktop-nav .options {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-nav .options ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-nav .options ul li {
+  margin: 0 1rem; /* Increase spacing between menu items */
+  /* position: relative; */
+}
+
+.desktop-nav .options ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White text */
+  font-size: 1rem;
+}
+
+ 
+
+/* Decorative underline on hover */
+ 
+
+ 
+
+.desktop-nav .menu-btn {
+  display: none; /* Hide menu button on larger screens */
+}
+
+/* Media query for tablet and mobile view */
+@media (max-width: 768px) {
+  .desktop-nav .options ul {
+    display: none; /* Hide desktop nav items on smaller screens */
+  }
+
+  .desktop-nav .menu-btn {
+    display: block; /* Show menu button on smaller screens */
+    background: none;
+    border: none;
+    color: #ffd700; /* Gold color for the menu button */
+    cursor: pointer;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-left: auto; /* Align the button to the right */
+  }
+
+  .desktop-nav {
+    justify-content: space-between; /* Ensure the space is distributed between the portfolio and menu button */
+  }
+}

@@ -6,13 +6,13 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 60%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.95);
+    background: black;
     color: #fff;
     z-index: 1000;
     transition: transform 0.4s ease, opacity 0.4s ease;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     opacity: 0;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .mobile-menu .portfolio {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 2rem;
     color: #ffd700;

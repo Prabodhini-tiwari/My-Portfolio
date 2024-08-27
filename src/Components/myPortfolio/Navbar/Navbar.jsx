@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+ 
 import MobileNav from './MobileNav/MobileNav';
 import './Navbar.css';
 
@@ -17,11 +18,11 @@ const Navbar = () => {
                 <div className='options'>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#Experience">Experience</a></li>
-                        <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#Contacts">Contacts</a></li>
+                        <li><a href="#AboutAndSkills">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     <button className="menu-btn" onClick={toggleMenu}>
                         <span className={"material-symbols-outlined"}>

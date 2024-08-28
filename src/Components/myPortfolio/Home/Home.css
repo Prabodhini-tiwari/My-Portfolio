@@ -1,0 +1,124 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    background: #1c1c3c; /* Deep Navy Blue background */
+    color: #fff; /* White text for contrast */
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.leftContent {
+    max-width: 700px;
+    text-align: center;
+    animation: fadeInUp 1s ease-out; /* Subtle fade-in animation */
+}
+
+.leftContent h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-bottom: 1.5rem;
+    color: #ffd700; /* Gold color for your name */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+}
+
+.leftContent h2 .name {
+    color: #ffffff; /* White color for emphasis */
+}
+
+.leftContent h2 .Hi {
+    font-size: 2.5rem;
+    font-weight: 400;
+    display: block;
+    color: #ffd700; /* Matching gold from the gradient */
+}
+
+.leftContent p {
+    font-size: 1.8rem;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+button {
+    background: #ffd700; /* Gold button background */
+    color: #1c1c3c; /* Navy blue text */
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+    box-shadow: 0 8px 15px rgba(255, 215, 0, 0.3); /* Button shadow */
+}
+
+button:hover {
+    background: #e6c200; /* Slightly darker gold on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 1200px) {
+    .home-container {
+        padding: 2.5rem;
+    }
+
+    .leftContent h2 {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    .leftContent p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .home-container {
+        
+        padding: 2rem 1rem;
+    }
+
+    .leftContent h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    .leftContent p {
+         
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 600px) {
+    .leftContent h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .leftContent p {
+        font-size: 1.2rem;
+         
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

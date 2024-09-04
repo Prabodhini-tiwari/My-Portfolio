@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgb(8, 10, 10); /* Deep Navy Blue background */
+  background: #2c2b2b; /* Deep Navy Blue background */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -14,7 +14,7 @@
 .desktop-nav .portfolio {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #ffd700; /* Gold text */
+  color: #b8b3b3; /* Gold text */
 }
 
 .desktop-nav .options {
@@ -36,7 +36,7 @@
 
 .desktop-nav .options ul li a {
   text-decoration: none;
-  color: #ffffff; /* White text */
+  color: #b8b3b3; /* White text */
   font-size: 1rem;
 }
 
@@ -61,7 +61,7 @@
     display: block; /* Show menu button on smaller screens */
     background: none;
     border: none;
-    color: #ffd700; /* Gold color for the menu button */
+    color: #b8b3b3; /* Gold color for the menu button */
     cursor: pointer;
     font-size: 2rem; /* Adjust font size as needed */
     margin-left: auto; /* Align the button to the right */

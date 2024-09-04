@@ -16,15 +16,15 @@ const Projects = () => {
                     <h3 className="project-title">Recipe Vault</h3>
                 </li>
                 <li className="project-item">
-                    <img src={PasswordGenratorImg}   className="project-image" />
+                    <img src={PasswordGenratorImg}    className="project-image" />
                     <h3 className="project-title">Password Generator</h3>
                 </li>
                 <li className="project-item">
-                    <img src= {StopWatchImg} className="project-image" />
+                    <img src= {StopWatchImg}   className="project-image" />
                     <h3 className="project-title">Stop Watch</h3>
                 </li>
                 <li className="project-item">
-                    <img src= {ToDoImage} className="project-image" />
+                    <img src= {ToDoImage}   className="project-image" />
                     <h3 className="project-title">todo</h3>
                 </li>
             </ul>

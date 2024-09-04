@@ -1,7 +1,7 @@
 .experience-section {
     padding: 4rem 2rem;
-    background-color:#1c1c3c;
-    color: #ffd700;
+    background-color:#ffffffe7;
+    color: #2e2c2c;
   }
   
   .experience-title {
@@ -14,7 +14,7 @@
   .timeline {
     position: relative;
     padding-left: 2rem;
-    border-left: 2px solid #ffd700;
+    border-left: 2px solid #808080;
   }
   
   .timeline-item {
@@ -28,13 +28,13 @@
     top: 0;
     width: 1rem;
     height: 1rem;
-    background-color: #ffd700;
+    background-color: #808080;
     border-radius: 50%;
   }
   
   .timeline-content {
     margin-left: 2.5rem;
-    background-color: #29294e;
+    background-color: #808080;
     padding: 1.5rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -47,6 +47,7 @@
   }
   
   .job-title {
+    color: #ffffff;
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -55,15 +56,12 @@
   .company-name,
   .location,
   .date-range {
+    color: #f1eeee;
     font-size: 1.1rem;
     margin-bottom: 0.3rem;
   }
   
-  .job-description {
-    margin-top: 0.8rem;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
+  
   
   /* Responsive Design */
   @media (min-width: 768px) {

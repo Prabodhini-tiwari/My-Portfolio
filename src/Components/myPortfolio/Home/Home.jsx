@@ -8,10 +8,14 @@ const Home = () => {
         <section className="home-container">
             <div className="leftContent">
                 <h2>
-                    <span className="Hi">Hi,</span><br />
-                    My name is <span className="name">Prabodhini Tiwari,</span>
+                    <span className="Hi">Hello,</span>
+                    I'm <span className="name">Prabodhini Tiwari,</span>
                 </h2>
-                <p>And I am a Frontend Developer</p>
+                <p>
+                    A frontend developer creating responsive, visually appealing web applications with a focus on modern design and smooth user experiences.
+                </p>
+
+
                 <div className="btn">
                     {/* Uncomment and adjust if using the PDF download */}
                     {/* <button className="download-btn">

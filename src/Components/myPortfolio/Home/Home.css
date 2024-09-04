@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     padding: 3rem 2rem;
-    background: #1c1c3c; /* Deep Navy Blue background */
-    color: #fff; /* White text for contrast */
+    background: #ffffffe7; /* Deep Navy Blue background */
+    color: #000000; /* White text for contrast */
     position: relative;
     min-height: 100vh;
     overflow: hidden;
@@ -23,24 +23,24 @@
     font-weight: 700;
     line-height: 5rem;
     margin-bottom: 1.5rem;
-    color: #ffd700; /* Gold color for your name */
+    color: #2c2b2b; /* Gold color for your name */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
 }
 
 .leftContent h2 .name {
-    color: #ffffff; /* White color for emphasis */
+    color: #2c2b2b; /* White color for emphasis */
 }
 
 .leftContent h2 .Hi {
     font-size: 2.5rem;
     font-weight: 400;
     display: block;
-    color: #ffd700; /* Matching gold from the gradient */
+    color: #2c2b2b; /* Matching gold from the gradient */
 }
 
 .leftContent p {
-    font-size: 1.8rem;
-    color: #ffffff;
+    font-size: 1.4rem;
+    color: #808080;
     line-height: 1.6;
     margin-bottom: 2.5rem;
 }
@@ -51,9 +51,9 @@
     gap: 1.5rem;
 }
 
-button {
-    background: #ffd700; /* Gold button background */
-    color: #1c1c3c; /* Navy blue text */
+.contact-btn {
+    background-color: #808080;  
+    color: #ffffff;  
     border: none;
     border-radius: 30px;
     padding: 1rem 2.5rem;
@@ -61,11 +61,11 @@ button {
     font-weight: 600;
     cursor: pointer;
     transition: background 0.4s ease, transform 0.2s ease;
-    box-shadow: 0 8px 15px rgba(255, 215, 0, 0.3); /* Button shadow */
+    box-shadow: 0 8px 15px rgba(17, 17, 17, 0.3); /* Button shadow */
 }
 
-button:hover {
-    background: #e6c200; /* Slightly darker gold on hover */
+.contact-btn:hover {
+    background:  rgb(29, 28, 28);  
     transform: translateY(-3px); /* Subtle lift effect */
 }
 

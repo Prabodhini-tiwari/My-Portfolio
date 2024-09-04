@@ -18,12 +18,11 @@ const AboutAndSkills = () => {
         <section className="about-skills-container">
             <div className="about-content">
                 <h1>About Me</h1>
+                 
                 <p>
-                    I am a passionate Frontend Developer with experience in creating dynamic and responsive web applications. My goal is to create beautiful and functional user experiences that enhance engagement and usability.
+                    I’m a frontend developer skilled in creating dynamic, responsive web applications that offer beautiful and functional user experiences. Proficient in HTML, CSS, JavaScript, and React, I’m passionate about modern web technologies.
                 </p>
-                <p>
-                    I love working with modern web technologies and am always eager to learn new skills and improve my craft. In my free time, I enjoy contributing to open-source projects and exploring new design trends.
-                </p>
+
             </div>
 
             <div className="skills-content">
